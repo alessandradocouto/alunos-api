@@ -9,7 +9,7 @@ CRUD operations using Web API and React.js
 - Visual Studio and Visual Studio Code IDE should be installed on your system.
 - Database: SQL Server 
 
-## Technologies we will use -
+## Technologies
 - ASP.NET Core Web API
 - ReactJS
 - Node.js
