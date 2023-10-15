@@ -11,12 +11,12 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 
-// configuração do  banco de dados mysql
+// Add configuração do  banco de dados mysql
 string mySqlConnection = builder.Configuration.GetConnectionString("DefaultConnection");
 builder.Services.AddDbContext<AppDbContext>(options => 
     options.UseMySql(mySqlConnection, ServerVersion.AutoDetect(mySqlConnection)));
 
-//Add Interface Services
+// Add Interface do Services
 builder.Services.AddScoped<IAlunoService, AlunoService>();
 
 
