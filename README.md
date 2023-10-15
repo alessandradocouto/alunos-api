@@ -6,10 +6,12 @@ CRUD operations using Web API and React.js
 ## Pre-requisites
 - We should have the basic knowledge of React.js and ASP.NET Core Web API.
 - Visual Studio and Visual Studio Code IDE should be installed on your system.
-- Database: SQL Server 
+- Database Relatioonal: MySQL
+- Node.js and Npm should be installed on your system 
 
 ## Technologies
 - ASP.NET Core Web API
+- .NET 6
 - ReactJS
 - Node.js
 - Npm
@@ -17,7 +19,7 @@ CRUD operations using Web API and React.js
 - JWT
 - Identity
 - EFCore - Code First
-- SQL Server
-- Bootstrap
+- MySQL
+- Material UI
 
 
